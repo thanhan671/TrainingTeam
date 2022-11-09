@@ -15,7 +15,11 @@ namespace WebApplication1.Controllers
 
         public ActionResult About()
         {
+<<<<<<< Updated upstream
             ViewBag.Message = "Your application description page.";
+=======
+            ViewBag.Message = "Hello World!!";
+>>>>>>> Stashed changes
 
             return View();
         }
